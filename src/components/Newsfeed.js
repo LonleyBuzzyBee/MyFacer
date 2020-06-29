@@ -38,8 +38,9 @@ function Newsfeed() {
   return (
     <React.Fragment>
       <div className="post">
-        <div className="row">
-          <div>icon</div>
+        <div className="newsfeed-row">
+          <div className="icon">
+          </div>
           <input placeholder="What's happening?"></input>
         </div>
       <hr />

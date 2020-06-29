@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# _MyFacer_
 
-## Available Scripts
+#### _a react application built as a mock for a social media site, latest update 06/29/20 version 1_
 
-In the project directory, you can run:
+#### By _**Mai C. and Tyler B.**_
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Page Layout](./public/image/tylers_awesome_diagram.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+_MyFacer is a mock social media app designed to show the user a simple recreation of the layout of most social media sites._
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Specifications
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+| Behavior | Input | Output |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup/Installation Requirements
 
-### `npm run eject`
+_In Terminal:_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Navigate to where you want this application to be saved, i.e.:
+```cd desktop```
+* Clone the file from GitHub with HTTPS
+```git clone https://github.com/kwicz/beep-boop.git```
+* Open file in your preferred text editor
+* On Mac: ```open -a {your text editor} beep-boop```
+* On Windows: ```beep-boop```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_To Download Manually:_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Navigate to https://github.com/kwicz/beep-boop.
+* Click green "Clone or Download" button.
+* Click "Download ZIP".
+* Click downloaded file to unzip.
+* Open folder called "beep-boop-master".
+* Right click "index.html" and select your preferred browser or text editor.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Known Bugs
 
-## Learn More
+_No known bugs at this time._
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Support and contact details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/LonleyBuzzyBee/MyFacer/issues) here on GitHub._
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+_React_
+_Javascript_
+_HTML_
+_CSS_
+_Diagram.Drawio_
 
-### Analyzing the Bundle Size
+### License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Making a Progressive Web App
+Copyright (c) 2020 **_Tyler B., Mai C._**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- ![Page Layout](./public/image/tylers_awesome_diagram.png) -->

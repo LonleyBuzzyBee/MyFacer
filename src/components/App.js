@@ -2,6 +2,7 @@ import React, { Profiler } from "react";
 import Dashboard from "./Dashboard";
 import Profile from "./Profile";
 import Newsfeed from "./Newsfeed";
+import Recommendations from "./Recommendations";
 // import Recommendations from "./Recommendations";
 
 function App(){
@@ -9,7 +10,8 @@ function App(){
     <React.Fragment>
       <Dashboard />
       <Profile />
-      <Newsfeed/>
+      <Newsfeed />
+      <Recommendations/>
     </React.Fragment>
   );
 }

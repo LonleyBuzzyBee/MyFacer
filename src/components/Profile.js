@@ -3,7 +3,7 @@ import React from 'react';
 
 function TicketList(){
 return (
-  <div className="profile-wrapper">
+  <div className="profile-wrapper-inside">
     <div className="user-info">
       <div className="user-img">profile pic
       </div>

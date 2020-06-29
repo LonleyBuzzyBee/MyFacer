@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function OtherUser(props){
   return (
     <React.Fragment>
-      <img src={props.profilePic} width="15%"/>
+      <img src={props.profilePic} width="15%" alt ="userimage"/>
       <h3>{props.userName}</h3>
       <h3>{props.tagline}</h3>
       <h3>{props.location}</h3>

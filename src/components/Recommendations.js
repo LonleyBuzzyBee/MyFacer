@@ -25,15 +25,17 @@ const allOtherUsers = [
 function Recommendations() {
 return (
       <React.Fragment>
-        <hr/>
-        {allOtherUsers.map((otherUser, index) =>
-          <OtherUser
-            profilePic={otherUser.profilePic}
-            userName={otherUser.userName}
-            location={otherUser.location}
-            tagline={otherUser.tagline}
-            key={index}/>
-        )}
+        <div className="recommended">
+            <hr/>
+            {allOtherUsers.map((otherUser, index) =>
+              <OtherUser
+                profilePic={otherUser.profilePic}
+                userName={otherUser.userName}
+                location={otherUser.location}
+                tagline={otherUser.tagline}
+                key={index}/>
+          )}
+        </div>
       </React.Fragment>
     );
 }

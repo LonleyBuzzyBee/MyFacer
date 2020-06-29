@@ -1,4 +1,4 @@
-import React, { Profiler } from "react";
+import React from "react";
 import Dashboard from "./Dashboard";
 import Profile from "./Profile";
 import Newsfeed from "./Newsfeed";
@@ -9,10 +9,20 @@ function App(){
   return ( 
     <React.Fragment>
       <Dashboard />
-      <Profile />
-      <Newsfeed />
-      <Recommendations/>
+      <hr/>
+      <div className="parent-wrapper">
+        <div className="profile-wrapper">
+          <Profile />
+        </div>
+        <div className="newsfeed-wrapper">
+          <Newsfeed />
+        </div>
+        <div className="rec-wrapper">
+          <Recommendations />
+        </div>
+      </div>
     </React.Fragment>
+   
   );
 }
 

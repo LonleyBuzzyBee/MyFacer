@@ -19,6 +19,7 @@ function App(){
         </div>
         <div className="rec-wrapper">
           <Recommendations />
+          
         </div>
       </div>
     </React.Fragment>

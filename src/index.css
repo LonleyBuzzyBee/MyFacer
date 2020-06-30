@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,30 +17,39 @@ code {
   flex-direction: row;
 }
 h5{
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
+.otherUser{
+  border-top: 1px solid rgb(191, 199, 212);
+}
 .home {
-  border: 1px solid rgb(191, 199, 212);
+  text-align: center;
+  width: 100px;
+  border: .5px solid rgb(191, 199, 212);
   margin-left: 30px;
  
 }
 .notifications{
-  border: 1px solid rgb(191, 199, 212);
+  text-align: center;
+  width: 120px;
+  border: .5px solid rgb(191, 199, 212);
   
 }
 .messages {
-  border: 1px solid rgb(191, 199, 212);
+  text-align: center;
+  width: 100px;
+  border: .5px solid rgb(191, 199, 212);
   
 }
 .Search {
-  margin-left: 10%;
+  margin-left: 40%;
   border-radius: 25px;
   border: 2px solid #02dbf8;
   padding: 20px; 
-  width: 200px;
+  width: 300px;
   height: 10px; 
 }
 .Tweet {
@@ -49,7 +58,7 @@ h5{
   border-radius: 25px;
   border: 2px solid #02dbf8;
   padding: 20px; 
-  width: 200px;
+  width: 100px;
   height: 10px; 
 }
 .parent-wrapper{
@@ -59,19 +68,32 @@ h5{
 .profile-wrapper{
   display: flex;
   flex-direction: column;
+  
   width: 25%;
   height: 50%;
   margin: 3%;
 }
 .user-info{
 border: solid;
+background-color: rgb(8, 72, 247);
 border-color:rgb(191, 199, 212);
+border-radius: 3px;
 height: 300px;
 margin-bottom: 10%;
+}
+.user-img{
+  position: relative;
+  z-index: 3;
+  border: 5px solid rgb(255, 255, 255);
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 100px;
+ 
 }
 .bio{
 border: solid;
 border-color:rgb(191, 199, 212);
+border-radius: 3px;
 height: 450px;
 }
 .newsfeed-wrapper{
@@ -84,6 +106,10 @@ height: 450px;
 .post{
   border: solid;
   border-color:rgb(191, 199, 212);
+  border-radius: 3px;
+}
+.newsfeed-row{
+  padding: 2%;
 }
 .icon{
   width: 40px;
@@ -98,13 +124,14 @@ height: 450px;
   flex-direction: column;
   width: 25%;
   height: 50%;
-  margin: 2%;
+  margin-right: 2%;
   margin-top: 3%;
 }
 .recommended{
    border: solid;
   border-color:rgb(191, 199, 212);
-  height: 45%;
+  border-radius: 3px;
+  height: 40%;
 }
 .newsfeed-row{
   display: flex;
@@ -113,4 +140,19 @@ height: 450px;
 .row{
   display: flex;
   flex-direction: row;
+}
+.row1{
+  border-top: solid;
+  height: 52%;
+  border-color:rgb(255, 255, 255);
+  background-color:rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  margin-top: -10%;
+  padding-top: 8px;
+
+}
+h4{
+  margin-left: 10px;
+  margin-top: 50px;
 }

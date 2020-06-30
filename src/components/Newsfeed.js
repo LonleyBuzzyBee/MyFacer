@@ -43,7 +43,7 @@ function Newsfeed() {
           </div>
           <input placeholder="What's happening?"></input>
         </div>
-      <hr />
+  
       {allUsers.map((otherUser, index) =>
         <OtherUser
             profilePic={otherUser.profilePic}
